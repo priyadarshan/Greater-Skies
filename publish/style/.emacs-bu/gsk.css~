@@ -59,6 +59,9 @@ div#content { margin-left: 10px;
               -moz-box-shadow: 2px 2px 8px #aaa;
               margin-bottom: 30px; }
 
+div#license { font-size: 10px; width: 100px; 
+	      line-height: 1.6em; }
+
 div#comments { width: 725px; }
 
 div#related { width: 250px; float: right; margin-right: -40px; 
@@ -67,6 +70,12 @@ div#related { width: 250px; float: right; margin-right: -40px;
               display: inline;
               margin-top: 0px; 
 	      border-left: solid #A7A59B 1px; } 
+
+div#mainrelated { width: 250px; float: right; margin-right: -40px; 
+              padding-left: 10px;
+	      margin-left: 10px;
+              display: inline;
+              margin-top: 0px; }
 
 .side { float: right; margin-right: -340px; display: inline; }
 
