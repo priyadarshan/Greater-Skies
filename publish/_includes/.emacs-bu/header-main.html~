@@ -1,5 +1,0 @@
-<div id="mainhead"> 
-  <center><a id="backhome" href='{% page.index %}'>Greater Skies</a><br/>
-  </center>
-  <div id="motto"><center>{{ page.motto }}</center></div>
-</div><br/>
