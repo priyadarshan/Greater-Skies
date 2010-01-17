@@ -1,0 +1,9 @@
+---
+destination: ../www
+auto:        false
+lsi:         false
+server_port: 4000
+pygments:    false
+permalink:   /:year/:month/:day/:title
+more: más
+

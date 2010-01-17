@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% include header.html %}
+<div id="content"> 
+  {{ content }}
+  {% include author.html %}
+</div>
+
+<a name="comments">&nbsp;</a>
+<div id="comments">
+  <hr/>
+  <script type="text/javascript"> 
+    var disqus_developer = 0;
+  </script> 
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/greaterskies-{{ page.lang }}/embed.js"></script><noscript><a href="http://disqus.com/forums/greaterskies-{{ page.lang }}/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+{% include footer.html %}

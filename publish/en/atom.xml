@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Greater Skies</title>
+ <link href="http://greaterskies.com/en/atom.xml" rel="self"/>
+ <link href="http://greaterskies.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <author>
+   <name>Juan Reyero</name>
+   <email>juan@juanreyero.com</email>
+ </author>
+ 
+ {% for post in site.categories.en  limit:5 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://greaterskies.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>id:{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>

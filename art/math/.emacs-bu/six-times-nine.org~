@@ -1,0 +1,64 @@
+# -*- coding: utf-8 -*-
+
+@<div id="related">
+[[file:cas/seis-veces-nueve.org][Versión en castellano]]
+
+See also
+- [[file:size-triangle.org][What is the size of a triangle?]]
+- [[file:size-paral.org][What is the size of a parallelogram?]]
+@</div>
+
+* Why is six times nine the same as nine times six?
+  When I asked my older son this question his immediate reply was
+  "Well, because multiplication is commutative".  Which is as
+  good as saying "because that's what it is, why won't you stop
+  asking obvious questions?".  He's been aware for a while of how
+  convenient this property of multiplications is: I would ask him
+  "how much is a thousand times three?", and instead of adding
+  three, plus three, plus three a thousand times he would say
+  "the same as three times a thousand, three thousand".
+
+  One way to see why these tricks are possible is to draw a
+  graphic representation of the multiplication.  Six times nine
+  means taking a group of nine things and replicating them six
+  times, like this:
+
+#+ATTR_HTML: class="clean-center"
+[[file:img/six-times-nine/6-times-9.png]]
+
+  And nine times six means taking a group of six and stacking
+  them up nine times, like this:
+
+#+ATTR_HTML: class="clean-center"
+[[file:img/six-times-nine/9-times-6.png]]
+
+  If we only care about how many elements are there, all we are
+  doing is rotating the rectangle: and a nice property of
+  rectangles is that their size does not change when we rotate
+  them.
+
+  Another good opportunity for a shortcut is the answer to "how
+  many groups of 24 minutes are there in a day?".  The total
+  number of minutes in a day is: 24 hours in a day times 60
+  minutes in an hour.  But regardless of which number this
+  product turns out to be (1440), it is 24 times 60, which is the
+  same as 60 times 24: so 24 periods of 60 minutes is the same as
+  60 periods of 24 minutes.  And if a day has 60 groups of 24
+  minutes, it also has 120 groups of 12 minutes, which has
+  nothing to do with the original question but is a beautiful
+  thing.
+*** Comments
+    #+begin_html
+      <script type="text/javascript">
+        var disqus_developer = 0;
+      </script>
+      <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/juanreyero/embed.js"></script><noscript><a href="http://disqus.com/forums/juanreyero/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    #+end_html
+* COMMENT Options
+#+FILETAGS: :cjr:
+#+TITLE:     Why is six times nine the same as nine times six?
+#+AUTHOR:    Juan Reyero
+#+DATE:      2008-04-06
+#+LANGUAGE:  en
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+

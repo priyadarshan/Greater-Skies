@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+#+begin_html
+#+include: "loc/en.yml"
+date:   2010-01-12
+layout: main
+---
+#+end_html
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+
+#+begin_html
+  <ul>
+    {% for post in site.categories.en %}
+    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>, 
+      {{ post.date | date: "%Y-%m-%d" }}</li>
+    {% endfor %}
+  </ul>
+#+end_html

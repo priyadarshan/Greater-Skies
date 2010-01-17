@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+#+begin_html
+#+include: "../../../loc/es.yml"
+date:   2009-12-23
+layout: page
+---
+#+end_html
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+
+@<div id="related">
+También [[file:../six-times-nine/stn-es.org][¿Por qué es seis veces nueve igual a nueve veces seis?]]
+@</div>
+
+* Logaritmos
+*** Sumas, multiplicaciones y potencias
+    En el artículo sobre [[file:elevado.org][las potencias]] hablábamos de la suma, la
+    multiplicación y la potenciación: $b+c$ es contar $c$ veces a
+    partir de $b$, $b\times c$ es sumar $b$ consigo mismo $c$
+    veces, y $b^e$ es multiplicar $b$ por sí mismo $e$ veces.
+*** Volver atrás: las operaciones inversas
+    Sabemos que con la suma viene la resta, y con la
+    multiplicación la división; ¿qué viene con la potenciación?
+
+    ¿Qué es restar?  Saber lo que es la suma lo hace más fácil,
+    porque podemos decir que $b-c$ es un número $d$ que sumado a
+    $c$ da $b$.  O sea que si alguien nos pide que calculemos
+    $b-c$ lo que nos está diciendo es que tenemos que encontrar
+    un número $d$ tal que $d+c=b$.  Pero fíjate en que no nos
+    tenemos que preocupar por el orden de la suma, porque $d+c$ y
+    $c+d$ son lo mismo.
+
+    ¿Y dividir?  Usamos el mismo truco: aprovechando que ya
+    tenemos la multiplicación definida, decimos que $b/c$ es un
+    número $d$ que multiplicado por $c$ nos dé $b$.  Así que
+    $d\times c = b$, y de nuevo no nos tenemos que preocupar por
+    el orden de la multiplicación, porque $d\times c$ es lo mismo
+    que $c\times d$.  
+
+    ¿Y las potencias?  Aquí hay que ir con un poco más de
+    cuidado, porque $b^e$ no es lo mismo que $e^b$.  Dados
+
+#+begin_center
+    \[ d = b^e \]
+#+end_center
+
+    tenemos dos preguntas posibles:
+    1. ¿Cuál es el número $b$ que elevado a $e$ da $d$?  Este
+       número lo encontramos al hablar de [[file:elevado.org::*Potencias%20de%20exponente%20fraccional][potencias de exponente
+       fraccional]], y lo llamamos $b=d^{1/e}$, o la raíz de $d$ de
+       orden $e$, escrito $\sqrt[e]{d}$. 
+    2. ¿A qué número $e$ hay que elevar $b$ para que dé $d$?  A
+       este número lo llamamos el /logaritmo/ en base $b$ de $d$, y
+       lo escribimos $e = \log_b{d}$. 
+
+    Vale la pena ponerlo todo junto:
+
+#+begin_center
+    \begin{eqnarray*}
+    d & = & b^e \\
+    d^{1/e} & = & b = \sqrt[e]{d} \\
+    \log_b{d} & = & e
+    \end{eqnarray*}
+#+end_center
+*** Logaritmo de una potencia
+    ...
+*** Jugando con logaritmos
+    Cualquier número positivo vale para ser base de logaritmo,
+    pero hay tres que son especialmente útiles.  Uno es el 10,
+    que es el que asumimos por omisión cuando no nos dicen la
+    base.  Algunos ejemplos de logaritmos en base 10:
+#+begin_center
+    \begin{eqnarray*}
+    10^2 = 100 & \implies & \log 100 = 2 \\
+    10^3 = 1000 & \implies & \log 1000 = 3 \\
+    10^6 = 1000000 & \implies & \log 1000000 = 6.
+    \end{eqnarray*}
+#+end_center
+    ¿Cómo calculas $100\times 1000$?  Seguramente lo que haces es
+    contar los ceros, porque sabes que el resultado de
+    multiplicar dos potencias de 10 es un uno seguido de tantos
+    ceros como tengan entre los dos números.  Pero contar los
+    ceros es lo mismo que hacer el logaritmo en base 10.  Estás
+    haciendo $\log 100 = 2$ y sumándoselo a $\log 1000 = 3$.  El
+    5 que es el logaritmo en base 10 del resultado que buscas,
+    por lo que $10^5$ será tu número. 
+*** Logaritmo de un producto
+    ...

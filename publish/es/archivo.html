@@ -1,0 +1,21 @@
+---
+layout: default
+lang:   es
+archive-url: /es/archivo.html
+archive: Archivo
+subscribe: Suscríbete
+motto: Explicando la matemática y la ciencia.
+index: /es/
+---
+<div id="content"> 
+  {% include header.html %}
+  <h2>Artículos en castellano:</h2>
+  <ul>
+    {% for post in site.categories.es %}
+    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>,
+      {{ post.date | date: "%Y-%m-%d" }}</li>
+    {% endfor %}
+  </ul>
+  <br/><br/>
+</div>
+{% include footer.html %}

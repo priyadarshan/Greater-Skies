@@ -1,0 +1,12 @@
+<address class="signature">
+  {% if page.author %}
+  {{ page.author }}
+  {% else %}
+  <a class="author" href="http://juanreyero.com">Juan Reyero</a>
+  {% endif %}
+  <span class="date">{%if page.location %} 
+    {{ page.location }},
+    {% else %}
+    Barcelona,
+    {% endif %} {{ page.date | date: "%Y-%m-%d" }}</span>
+</address>

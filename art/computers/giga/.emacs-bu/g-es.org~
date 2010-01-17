@@ -1,0 +1,222 @@
+# -*- coding: utf-8 -*-
+
+
+@<div id="related">
+También [[file:seis-veces-nueve.org][¿Por qué es seis veces nueve igual a nueve veces seis?]]
+@</div>
+
+* Los gigas de los discos
+  Le voy a tener que comprar un /pen drive/ a Juan Manuel.  Por
+  lo visto en el colegio usan cada vez más el ordenador, y tienen
+  que llevar ficheros de un lado a otro.  Esta noche, mientras
+  cenábamos, le he preguntado de qué capacidad pensaba que lo
+  necesitaba.  "No lo sé, pero grande.  Al menos cinco o seis
+  gigas".  "Pero ¿para qué quieres tanto giga?"  "No lo sé.  Es
+  que no sé qué es un giga".  
+
+  Un giga son mil millones de /bytes/, más o menos.  ¿Y qué es un
+  /byte/? Ocho bits.  Y ¿un bit?
+*** Un bit
+    Un bit es algo que puede estar de dos formas, por ejemplo
+    encendido o apagado.  Imagina que quieres comunicarte con
+    Martín, que vive en una casa en la colina de enfrente.  No
+    hay teléfono, pero tenéis una lámpara en la ventana.  Martín
+    ve si la lámpara en tu ventana está encendida o apagada.
+
+    ¿Qué mensajes le podrías pasar?  Os tendríais que poner de
+    acuerdo antes sobre lo que quiere decir la lámpara: si hoy
+    está encendida es que sí, si está apagada es que no;
+    encendida es que el resultado del examen es 23, como habíamos
+    hablado, apagada es que no lo es; encendida es que les he
+    dicho a mis padres que iba a tu casa cuando en realidad he
+    ido al billar, apagada es que me he quedado a dormir.  Si lo
+    que quisieras comunicar fuera un número (por ejemplo, la
+    clave con que has encriptado el mensaje secreto que le mandas
+    por paloma mensajera) sólo podrías poner dos, que habríais
+    acordado de antemano: 235 si encendida, 1653 si apagada; o
+    uno si encendida, cero si apagada.
+***** Dos bits
+      Una lámpara en la ventana da mucho juego, pero seguramente
+      con dos lámparas podrías hacer mucho más.  ¿Cuánto más?
+      Una lámpara puede estar de dos maneras, pero dos lámparas
+      pueden estar de cuatro maneras:
+      #+ATTR_HTML: class="center"
+      | lámpara 1 | lámpara 2 |
+      |-----------+-----------|
+      | apagada   | apagada   |
+      | apagada   | encendida |
+      | encendida | apagada   |
+      | encendida | encendida |      
+      Supón que queréis comunicaros un número.  Por ejemplo,
+      imagina que le quieres decir en qué canal de la tele están
+      dando el programa que estás viendo, para poderlo comentar
+      al día siguiente.  Os tendríais que poner de acuerdo en lo
+      que significan las combinaciones de lámparas: las dos
+      apagadas podría representar un uno, la de la izquierda
+      apagada y la de la derecha encendida podría ser un dos,
+      encendida y apagada un tres, y las dos encendidas un
+      cuatro.
+
+      En el patio de la tarde os pondríais de acuerdo en el
+      código a usar durante la noche.  Pronto os cansaríais de
+      escribir "apagada" y "encendida" en la hoja de códigos, y
+      decidiríais una abreviatura: por ejemplo, apagada es un 0,
+      y encendida un 1.  El código de un día tendría esta pinta:
+      #+ATTR_HTML: class="center"
+      | 0 | 0 | uno    |
+      | 0 | 1 | dos    |
+      | 1 | 0 | tres   |
+      | 1 | 1 | cuatro |
+***** Tres bits
+      Pero resulta que hay más de cuatro canales en la tele.
+      Supón que decidís invertir en otra lámpara.  ¿Cuántos
+      números diferentes se pueden hacer con tres lámparas?
+      ¿Cuántas líneas puede tener ahora vuestra tabla de códigos?
+      
+      Piénsatelo despacito.  No mires el siguiente párrafo.
+      Intenta construirlos todos.  Hay una solución muy bonita, y
+      muy sencilla.  
+
+      Con la lámpara nueva apagada, las dos antiguas pueden estar
+      de cuatro formas diferentes.  Con la lámpara nueva
+      encendida, las dos antiguas también pueden estar de cuatro
+      formas diferentes.  En total, las tres lámparas pueden
+      estar de ocho formas diferentes: las cuatro de las dos
+      viejas con la nueva apagada, y las cuatro de las dos viejas
+      con la nueva encendida.
+      #+ATTR_HTML: class="center"
+      | 0 | 0 | _0_ |
+      | 0 | 1 | _0_ |
+      | 1 | 0 | _0_ |
+      | 1 | 1 | _0_ |
+      | 0 | 0 | _1_ |
+      | 0 | 1 | _1_ |
+      | 1 | 0 | _1_ |
+      | 1 | 1 | _1_ |
+*** Un byte
+    Fíjate que, mientras pensábamos cómo encontrar de cuántas formas
+    podemos tener tres lámparas, hemos encontrado una manera muy
+    sencilla de contar de cuántas formas puede estar un número
+    cualquiera de lámparas. 
+
+    ¿De cuántas formas diferentes pueden estar ocho lámparas?  No
+    es fácil verlo sin usar nuestro truco.  Inténtalo.  Verás que
+    para construir todas las combinaciones posibles necesitas
+    algún tipo de orden, y es fácil que te equivoques.
+
+    Pero no hace falta construirlas todas.  Usemos el truco.  Una
+    lámpara puede estar de dos formas, encendida o apagada.
+    Cuando ponemos otra, la vieja puede estar de dos formas
+    mientras la nueva está encendida, y de dos formas mientras la
+    nueva está apagada: hemos multiplicado por dos, y nos da
+    cuatro.  Al poner una tercera, las dos viejas pueden estar de
+    cuatro formas con la tercera encendida, y de cuatro formas
+    con la tercera apagada: hemos vuelto a multiplicar por dos.
+
+    Así que cada vez que añadimos una lámpara multiplicamos por
+    dos.  Con ocho lámparas habremos multiplicado por dos ocho
+    veces,
+
+    2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 = 256
+
+    Habíamos dicho antes que un bit es algo que puede estar
+    encendido o apagado.  A un grupo de ocho bits le llamamos
+    *byte*.  Un bit puede representar sólo dos valores, mientras
+    que un byte puede representar 256 valores: puede estar de 256
+    formas diferentes.  Si tuvieras ocho bombillas en la ventana
+    de tu habitación podrías combinarlas para construir 256
+    mensajes.
+*** Un gigabyte
+    Giga es un prefijo que quiere decir mil millones, como el
+    kilo de kilómetro que quiere decir mil.  O sea que un
+    gigametro son mil millones de metros, y un gigabyte, que es a
+    lo que se refieren los fabricantes de discos, son mil
+    millones de bytes.
+
+    Mil millones de bytes, cada byte son ocho bits, y cada bit es
+    como una de las bombillas que ponías en la ventana de tu
+    habitación, y que te servían para construir mensajes.  O sea
+    que un gigabyte es como ocho mil millones de bombillas.
+    ¿Cuántos mensajes podrías construir con todas esas bombillas?
+    Éste es más difícil de calcular (tienes que saber qué son los
+    logaritmos): es un número gigantesco, con alrededor de 2408
+    millones de cifras.  Para que te hagas una idea de lo grande
+    que es, el número de átomos en todo el universo es un número
+    de sólo 80 cifras, y el número de segundos que han pasado
+    desde el Big-Bang es de 18 cifras.
+
+    Este número gigantesco son los mensajes que puede contener un
+    giga; a efectos prácticos, infinitos.  Por eso puedes poner
+    los ceros y los unos para que signifiquen canciones, o
+    libros, o fotos: eso es lo que quiere decir guardar un
+    fichero.  Cada combinación de ceros y unos, de bombilla
+    encendida y apagada, puede querer decir una cosa diferente.
+    Pero como hay tantísimas posibilidades la inmensa mayoría de
+    posibles combinaciones en un giga no querrán decir nunca
+    nada.
+*** Cómo se organizan los bits
+    Los ocho mil millones de bits que hay en un giga pueden tener
+    ese número inmenso de posibles combinaciones, pero el
+    ordenador no los usa todos de golpe.  Lo que hace es
+    separarlos en trocitos: por ejemplo, para representar letras
+    coge los bits de ocho en ocho, un trozo detrás de otro, y
+    hace que cada grupo de ocho bits (cada byte) sea una letra.
+    Como hemos quedado que un byte puede estar de 256 maneras
+    diferentes, hay posibilidades de sobra para que haya una
+    combinación distinta para cada letra del alfabeto, y todavía
+    quedan para un montón de símbolos raros.  Y como todos los
+    fabricantes de ordenadores se ponen de acuerdo en qué
+    combinación de ceros y unos dentro de un byte representa cada
+    letra, los chorros de bits que escribes con un ordenador los
+    puede leer otro.
+
+    Así que, como hemos decidido dividir el chorro de bits en
+    grupos de ocho, y dedicar un grupo a cada letra, resulta que
+    en un gigabyte podemos guardar mil millones de letras,
+    suponiendo que no queramos guardar nada más.  Y si queremos
+    guardar otra cosa, necesitamos ponernos de acuerdo en cómo
+    interpretar los ceros y los unos para representar esa otra
+    cosa.  Por ejemplo, normalmente los números enteros se
+    guardan en grupitos de 16 bits (65536 posibilidades
+    diferentes), o de 32 bits (4294967296 posibilidades
+    diferentes).
+
+    ¿Y la música? te estarás preguntando.  Porque música es, al
+    fin y al cabo, lo que quieres guardar en tu /pen drive/.
+    Pues es lo mismo, un montón de ceros y unos, que representan
+    números, que a su vez representan el sonido.  La única
+    diferencia es que el formato es más intrincado, y que el
+    número de ceros y unos que necesitan depende de lo larga que
+    sea la canción.  Para que te hagas una idea, alrededor de
+    ocho millones de ceros y unos por minuto.  O sea que en un
+    giga, que tiene ocho mil millones de ceros y unos, te caben
+    alrededor de mil minutos de canción, que son casi 17 horas.
+* Comentarios
+  #+begin_html
+    <script type="text/javascript">
+      var disqus_developer = 0;
+    </script>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/juanreyero/embed.js"></script><noscript><a href="http://disqus.com/forums/juanreyero/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  #+end_html
+
+* COMMENT Options
+#+FILETAGS: :cjr:
+#+TITLE:     Los gigas de los discos
+#+AUTHOR:    Juan Reyero
+#+DATE:      2008-04-06
+#+LANGUAGE:  es
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+* Open                                                             :noexport:
+*** DONE Arreglar ejemplo de mensajes en ventana
+    CLOSED: [2009-11-15 Sun 21:26]
+    No debe estar en forma de tabla.  Añadido header. 
+*** DONE Ejemplos de qué es un giga
+    CLOSED: [2009-11-15 Sun 22:05]
+    A efectos prácticos, qué quiere decir?  Cuántas canciones?
+    Qué ocupa un libro?  Cómo los reparten los programas?
+*** DONE Publish
+    CLOSED: [2009-11-16 Mon 18:57]
+*** TODO Translate gigas
+    :PROPERTIES:
+    :ID:       50ED7AE3-386A-44DF-A0C0-B3BAD3E13F93
+    :END:

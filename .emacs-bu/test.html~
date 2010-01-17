@@ -1,0 +1,23 @@
+---
+layout: default
+title: Pero funcionará
+---
+
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Prueba de si funciona </h2>
+<div class="outline-text-2" id="text-1">
+
+<p>A ver qué exporta!
+</p>
+</div>
+
+<div id="outline-container-1.1" class="outline-3">
+<h3 id="sec-1.1">Con un segundo nivel </h3>
+<div class="outline-text-3" id="text-1.1">
+
+<p>Con algo de contenido. 
+</p>
+</div>
+</div>
+</div>

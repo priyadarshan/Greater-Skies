@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Greater Skies</title>
+  <link href="http://greaterskies.com/es/atom.xml" rel="self"/>
+  <link href="http://greaterskies.com/es/"/>
+  <updated>2010-01-17T14:54:16+01:00</updated>
+  <author>
+    <name>Juan Reyero</name>
+    <email>juan@juanreyero.com</email>
+  </author>
+  
+  <entry>
+    <title>Logaritmos</title>
+    <link href="http://greaterskies.com/2009/12/23/Logaritmos"/>
+    <updated>2009-12-23T00:00:00+01:00</updated>
+    <id>id:/2009/12/23/Logaritmos</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/12/23/Logaritmos&quot;&gt;Logaritmos &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Artículo &lt;a href=&quot;/art/math/logarithm/l-es.html&quot;&gt;sobre logaritmos&lt;/a&gt;, todavía inacabado. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Un número elevado a otro</title>
+    <link href="http://greaterskies.com/2009/12/22/Un-nu%CC%81mero-elevado-a-otro"/>
+    <updated>2009-12-22T00:00:00+01:00</updated>
+    <id>id:/2009/12/22/Un-número-elevado-a-otro</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/12/22/Un-nu%CC%81mero-elevado-a-otro&quot;&gt;Un número elevado a otro &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Nuevo &lt;a href=&quot;/art/math/power/p-es.html&quot;&gt;artículo sobre potencias&lt;/a&gt;. ¿Y si en vez de sumar $b$
+consigo mismo lo multiplicamos?  Es algo que hacemos tan a
+menudo que también tiene un nombre: lo llamamos potenciación, o
+&quot;elevar a&quot;.  Decimos 2 elevado a 4 y lo escribimos $2&lt;sup&gt;4&lt;/sup&gt;$, que
+quiere decir multiplicar a 2 por sí mismo 4 veces.  &lt;a href=&quot;/art/math/power/p-es.html&quot;&gt;El artículo&lt;/a&gt;.
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>El nuevo Greater Skies</title>
+    <link href="http://greaterskies.com/2009/01/09/El-nuevo-Greater-Skies"/>
+    <updated>2009-01-09T00:00:00+01:00</updated>
+    <id>id:/2009/01/09/El-nuevo-Greater-Skies</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/01/09/El-nuevo-Greater-Skies&quot;&gt;El nuevo Greater Skies &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Listo para ser publicado, prácticamente. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>El tamaño de un triángulo</title>
+    <link href="http://greaterskies.com/2008/05/15/El-taman%CC%83o-de-un-tria%CC%81ngulo"/>
+    <updated>2008-05-15T00:00:00+02:00</updated>
+    <id>id:/2008/05/15/El-tamaño-de-un-triángulo</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/05/15/El-taman%CC%83o-de-un-tria%CC%81ngulo&quot;&gt;El tamaño de un triángulo &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;¿Qué quiere decir tamaño cuando se refiere a un triángulo?
+Puede ser cuánta pintura necesitas para colorearlo, o cuántos
+kilos de semillas necesitas para cubrirlo de césped, o cuántas
+galletas rectangulares lo cubrirían.  Todas estas medidas son
+arbitrarias, pero pueden tener sentido en determinadas
+ocasiones.  &lt;a href=&quot;/art/math/size-triangle/st-es.html&quot;&gt;El artículo&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>El tamaño de un paralelogramo</title>
+    <link href="http://greaterskies.com/2008/05/15/El-taman%CC%83o-de-un-paralelogramo"/>
+    <updated>2008-05-15T00:00:00+02:00</updated>
+    <id>id:/2008/05/15/El-tamaño-de-un-paralelogramo</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/05/15/El-taman%CC%83o-de-un-paralelogramo&quot;&gt;El tamaño de un paralelogramo &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;No todas las soluciones de un problema son iguales.  Hay muchas
+formas de mostrar cómo se puede encontrar el tamaño de un
+paralelogramo: una solución es muy simple, pero poco general;
+otras son generales pero complejas, y al menos una es general,
+simple y bonita. &lt;a href=&quot;/art/math/size-paral/sp-es.html&quot;&gt;El artículo&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+</feed>

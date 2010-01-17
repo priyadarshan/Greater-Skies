@@ -1,0 +1,46 @@
+prologues:=2;
+
+verbatimtex
+%&latex
+\documentclass[12pt]{article}
+\begin{document}
+etex
+
+vardef paral(expr A,B,C,D) =
+  draw A--B--C--D--A withpen pencircle
+       scaled 1.5pt;
+  lbldots(A);
+enddef;
+
+u := 12mm;
+pair A, B, C, D;
+A := (0,0);
+B := (5u,0);
+C := (12u,2.5u);
+D = (xpart A + xpart C - xpart B, ypart C);
+
+vardef lbldots(expr L) =
+%%  dotlabel.bot("A", A);
+%% dotlabel.bot("B", B);
+%%dotlabel.top("C", C);
+%%dotlabel.top("D", D);
+enddef;
+
+beginfig(1);
+  paral(A, B, C, D);
+endfig;
+
+beginfig(2);
+  fill (B--D--C--cycle) withcolor (0.8,1,0.4); % 6f3
+  paral(A, B, C, D);
+  draw B--D;
+endfig;
+
+beginfig(3);
+  fill (A--D--(xpart D - xpart B + xpart A, ypart D)--cycle) withcolor
+       (0.8,1,0.4);
+  draw A--B--D--(xpart D - xpart B + xpart A, ypart D)--A withpen
+       pencircle scaled 1.5pt;
+  draw B--C--D;
+  draw A--D;
+endfig;

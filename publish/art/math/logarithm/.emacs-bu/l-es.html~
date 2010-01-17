@@ -1,0 +1,151 @@
+---
+lang:   es
+archive-url: /es/archivo.html
+archive: Archivo
+subscribe: Suscríbete
+motto: Explicando la matemática y la ciencia.
+index: /es/
+also: También
+
+date:   2009-12-23
+layout: page
+---
+
+<p>
+<div id="related">
+También <a href="../six-times-nine/stn-es.html">¿Por qué es seis veces nueve igual a nueve veces seis?</a>
+</div>
+</p>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Logaritmos </h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1.1" class="outline-3">
+<h3 id="sec-1.1">Sumas, multiplicaciones y potencias </h3>
+<div class="outline-text-3" id="text-1.1">
+
+<p>En el artículo sobre <a href="../power/p-es.html">las potencias</a> hablábamos de la suma, la
+multiplicación y la potenciación: <img src="ltxpng/l-es_5d18256d6382704a07cafb0cadae7340830abf8f.png"/> es contar <img src="ltxpng/l-es_2849a2e3948559004d16c4ae49dcc4213cd850b8.png"/> veces a
+partir de <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/>, <img src="ltxpng/l-es_a389319aae491a4b0e872f6fec719746ce5963e5.png"/> es sumar <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/> consigo mismo <img src="ltxpng/l-es_2849a2e3948559004d16c4ae49dcc4213cd850b8.png"/>
+veces, y <img src="ltxpng/l-es_10c67fe542de83f95652f8c6f2de97ab57367238.png"/> es multiplicar <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/> por sí mismo <img src="ltxpng/l-es_d27d7b842c85f979bcfb4179d4ab15e39f38e6f1.png"/> veces.
+</p></div>
+
+</div>
+
+<div id="outline-container-1.2" class="outline-3">
+<h3 id="sec-1.2">Volver atrás: las operaciones inversas </h3>
+<div class="outline-text-3" id="text-1.2">
+
+<p>Sabemos que con la suma viene la resta, y con la
+multiplicación la división; ¿qué viene con la potenciación?
+</p>
+<p>
+¿Qué es restar?  Saber lo que es la suma lo hace más fácil,
+porque podemos decir que <img src="ltxpng/l-es_0e324ad4098f3147d6a9c47eebfa2cdd899211f0.png"/> es un número <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/> que sumado a
+<img src="ltxpng/l-es_2849a2e3948559004d16c4ae49dcc4213cd850b8.png"/> da <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/>.  O sea que si alguien nos pide que calculemos
+<img src="ltxpng/l-es_0e324ad4098f3147d6a9c47eebfa2cdd899211f0.png"/> lo que nos está diciendo es que tenemos que encontrar
+un número <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/> tal que <img src="ltxpng/l-es_28037cc75b29a95864c8c42751595809ff004603.png"/>.  Pero fíjate en que no nos
+tenemos que preocupar por el orden de la suma, porque <img src="ltxpng/l-es_b98316fe1948cd68cec09a16620941a3c2c102b6.png"/> y
+<img src="ltxpng/l-es_0bafbf29d6900b5b53e7e70e282d181392e532a2.png"/> son lo mismo.
+</p>
+<p>
+¿Y dividir?  Usamos el mismo truco: aprovechando que ya
+tenemos la multiplicación definida, decimos que <img src="ltxpng/l-es_6696c0c034c9927e803c04081dfa0888d28ef600.png"/> es un
+número <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/> que multiplicado por <img src="ltxpng/l-es_2849a2e3948559004d16c4ae49dcc4213cd850b8.png"/> nos dé <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/>.  Así que
+<img src="ltxpng/l-es_c8848a5d8b0758e3d9c49d1ca5102085e19760b1.png"/>, y de nuevo no nos tenemos que preocupar por
+el orden de la multiplicación, porque <img src="ltxpng/l-es_96244cad105fd3620015d51fecbf4eac1ac323be.png"/> es lo mismo
+que <img src="ltxpng/l-es_6e6b8a916db80395310fbf50e556c2ddc14561fb.png"/>.  
+</p>
+<p>
+¿Y las potencias?  Aquí hay que ir con un poco más de
+cuidado, porque <img src="ltxpng/l-es_10c67fe542de83f95652f8c6f2de97ab57367238.png"/> no es lo mismo que <img src="ltxpng/l-es_90eb839e2536398fb230d88965e1c77d9849adc2.png"/>.  Dados
+</p>
+
+<div style="text-align: center">
+<p><img src="ltxpng/l-es_807585b551305a4fd5a179c1f3a19b0aec48d643.png"/>
+</p>
+</div>
+
+<p>
+tenemos dos preguntas posibles:
+</p><ol>
+<li>
+¿Cuál es el número <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/> que elevado a <img src="ltxpng/l-es_d27d7b842c85f979bcfb4179d4ab15e39f38e6f1.png"/> da <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/>?  Este
+número lo encontramos al hablar de <a href="elevado.html">potencias de exponente fraccional</a>, y lo llamamos <img src="ltxpng/l-es_7f3968c47d631305d1026e4d87e094cad60830d7.png"/>, o la raíz de <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/> de
+orden <img src="ltxpng/l-es_d27d7b842c85f979bcfb4179d4ab15e39f38e6f1.png"/>, escrito <img src="ltxpng/l-es_dc27d5f5ef575282b348ccbc489e8c9672e704b3.png"/>. 
+</li>
+<li>
+¿A qué número <img src="ltxpng/l-es_d27d7b842c85f979bcfb4179d4ab15e39f38e6f1.png"/> hay que elevar <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/> para que dé <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/>?  A
+este número lo llamamos el <i>logaritmo</i> en base <img src="ltxpng/l-es_f46f0eb142f1e88fce09b363508e32381833ebbc.png"/> de <img src="ltxpng/l-es_203c48cbb4d1e6d2337fabe2a05e0a8a1a010929.png"/>, y
+lo escribimos <img src="ltxpng/l-es_2390d41350eb9d5042d1b834188b27a4cc5ea5c8.png"/>. 
+
+</li>
+</ol>
+
+<p>Vale la pena ponerlo todo junto:
+</p>
+
+<div style="text-align: center">
+
+
+<p>
+<img src="ltxpng/l-es_8839cf722967e150854e49cc78984b852a5470bf.png"/>
+</p>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1.3" class="outline-3">
+<h3 id="sec-1.3">Logaritmo de una potencia </h3>
+<div class="outline-text-3" id="text-1.3">
+
+<p>&hellip;
+</p></div>
+
+</div>
+
+<div id="outline-container-1.4" class="outline-3">
+<h3 id="sec-1.4">Jugando con logaritmos </h3>
+<div class="outline-text-3" id="text-1.4">
+
+<p>Cualquier número positivo vale para ser base de logaritmo,
+pero hay tres que son especialmente útiles.  Uno es el 10,
+que es el que asumimos por omisión cuando no nos dicen la
+base.  Algunos ejemplos de logaritmos en base 10:
+</p>
+<div style="text-align: center">
+
+
+<p>
+<img src="ltxpng/l-es_906ddb9254ebc9eee4987c900d6149b13d08b1fd.png"/>
+</p>
+
+
+</div>
+<p>¿Cómo calculas <img src="ltxpng/l-es_61f4bb2652a1bbb72d19574dd214031c146fdb4b.png"/>?  Seguramente lo que haces es
+contar los ceros, porque sabes que el resultado de
+multiplicar dos potencias de 10 es un uno seguido de tantos
+ceros como tengan entre los dos números.  Pero contar los
+ceros es lo mismo que hacer el logaritmo en base 10.  Estás
+haciendo <img src="ltxpng/l-es_7c0bb035dc78e9143301420fcc07cf4625fe0433.png"/> y sumándoselo a <img src="ltxpng/l-es_e1c30eb8b61fe37a20b74b16880b2586c56444d7.png"/>.  El
+5 que es el logaritmo en base 10 del resultado que buscas,
+por lo que <img src="ltxpng/l-es_3fe41c968410be3cb0053ffeb69dc337d68ffb0b.png"/> será tu número. 
+</p></div>
+
+</div>
+
+<div id="outline-container-1.5" class="outline-3">
+<h3 id="sec-1.5">Logaritmo de un producto </h3>
+<div class="outline-text-3" id="text-1.5">
+
+<p>&hellip;
+</p></div>
+</div>
+</div>

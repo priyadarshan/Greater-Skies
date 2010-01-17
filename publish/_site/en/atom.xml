@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Greater Skies</title>
+ <link href="http://greaterskies.com/en/atom.xml" rel="self"/>
+ <link href="http://greaterskies.com/"/>
+ <updated>2010-01-17T14:54:15+01:00</updated>
+ <author>
+   <name>Juan Reyero</name>
+   <email>juan@juanreyero.com</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>The new Greater Skies</title>
+   <link href="http://greaterskies.com/2009/01/09/The-new-Greater-Skies"/>
+   <updated>2009-01-09T00:00:00+01:00</updated>
+   <id>id:/2009/01/09/The-new-Greater-Skies</id>
+   <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/01/09/The-new-Greater-Skies&quot;&gt;The new Greater Skies &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Ready to be translated, and easy to publish with org-mode and
+jekyll. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The size of a triangle</title>
+   <link href="http://greaterskies.com/2008/05/15/The-size-of-a-triangle"/>
+   <updated>2008-05-15T00:00:00+02:00</updated>
+   <id>id:/2008/05/15/The-size-of-a-triangle</id>
+   <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/05/15/The-size-of-a-triangle&quot;&gt;The size of a triangle &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;What does size mean when you are talking about a triangle?  It
+can be how much paint you need to color it, or how many kilos
+of seed you need to plant on it to cover it with grass, or how
+many rectangular cookies you can fit on it.  All these measures
+are quite arbitrary, but they can all make sense on certain
+occasions. &lt;a href=&quot;/art/math/size-triangle/st-en.html&quot;&gt;The article&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The size of a parallelogram</title>
+   <link href="http://greaterskies.com/2008/05/15/The-size-of-a-parallelogram"/>
+   <updated>2008-05-15T00:00:00+02:00</updated>
+   <id>id:/2008/05/15/The-size-of-a-parallelogram</id>
+   <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/05/15/The-size-of-a-parallelogram&quot;&gt;The size of a parallelogram &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Not all solutions of a problem are created equal.  There are
+many ways to show how the size of a parallelogram can be found:
+one solution is very simple, but not general enough; some are
+general but complex, and some are general, simple and
+beautiful. &lt;a href=&quot;/art/math/size-paral/sp-en.html&quot;&gt;The article&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Six times nine and nine times six</title>
+   <link href="http://greaterskies.com/2008/04/06/Six-times-nine-and-nine-times-six"/>
+   <updated>2008-04-06T00:00:00+02:00</updated>
+   <id>id:/2008/04/06/Six-times-nine-and-nine-times-six</id>
+   <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/04/06/Six-times-nine-and-nine-times-six&quot;&gt;Six times nine and nine times six &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;When I asked my older son this question his immediate reply was
+&quot;Well, because multiplication is commutative&quot;.  Which is as
+good as saying &quot;because that's what it is, why won't you stop
+asking obvious questions?&quot;.  He's been aware for a while of how
+convenient this property of multiplications is: I would ask him
+&quot;how much is a thousand times three?&quot;, and instead of adding
+three, plus three, plus three a thousand times he would say
+&quot;the same as three times a thousand, three
+thousand&quot;. &lt;a href=&quot;/art/math/six-times-nine/stn-en.html&quot;&gt;The article&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+</feed>

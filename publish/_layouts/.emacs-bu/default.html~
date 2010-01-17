@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+  <head> 
+    <title>{{ page.title }}</title> 
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/> 
+
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt }}"/> 
+    {% endif %}
+    {% if page.author %}
+    <meta name="author" content="{{ page.author }}"/>
+    {% else %}
+    <meta name="author" content="Juan Reyero"/>
+    {% endif %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}"/>
+    {% endif %}
+    {% if page.feed %}
+    <link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed" />
+    {% else %}
+    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/GreaterSkies" title="RSS feed" />
+    {% endif %}
+
+    <style type="text/css"> 
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+    </style>
+    <link rel='stylesheet' type='text/css' media='screen' 
+          href='/style/org.css'/> 
+<!--[if lt IE 7]>
+<script language='JavaScript'>
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split('MSIE')
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters))
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+          if (imgName.substring(imgName.length-3, imgName.length) == 'PNG')
+         {
+             var imgID = (img.id) ? 'id=\"' + img.id + '\" ' : ''
+            var imgClass = (img.className) ? 'class=\"' + img.className + 
+                 '\" ' : ''
+            var imgTitle = (img.title) ? 'title=\"' + img.title + '\" ' : 
+                 'title=\"' + img.alt + '\" '
+            var imgStyle = 'display:inline-block;' + img.style.cssText
+            if (img.align == 'left') imgStyle = 'float:left;' + imgStyle
+            if (img.align == 'right') imgStyle = 'float:right;' + imgStyle
+             if (img.parentElement.href) imgStyle = 'cursor:hand;' + imgStyle
+             var strNewHTML = '<span ' + imgID + imgClass + imgTitle
+            + ' style=\"' + 'width:' + img.width + 'px; height:' + img.height + 'px;' + imgStyle + ';'
+            + 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader'
+            + '(src=\"' + img.src + '\", sizingMethod=\"scale\");\"></span>'
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }
+}
+window.attachEvent('onload', correctPNG);
+</script>
+<![endif]--> 
+ 
+<script type="text/javascript"> 
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script> 
+  </head> 
+  <body> 
+    <div id="wrapper">
+      {{ content }}
+    </div><!-- #wrapper --> 
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/juntoalcamino/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1081212-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  </body> 
+</html> 

@@ -1,0 +1,7 @@
+<div id="mainhead"> 
+  <a id="backhome" href='{{ page.index }}' >{% if page.more %}
+    {{ page.more }}
+    {% else %}
+    Greater Skies
+    {% endif %}&nbsp;&larr;</a>
+</div><br/>

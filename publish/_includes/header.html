@@ -1,0 +1,19 @@
+<div id="mainhead"> 
+  <a id="backhome" href='{{ page.index }}' >{% if page.more %}
+    {{ page.more }}
+    {% else %}
+    Greater Skies
+    {% endif %}&nbsp;&larr;</a>
+</div><br/>
+<div id="mainrelated">
+  <a href="http://feeds.feedburner.com/GreaterSkies-{{ page.lang}}"><img src="/img/rss.png"/>&nbsp;{{ page.subscribe }}</a><br/>
+  <a href="{{ page.archive-url }}">{{ page.archive }}</a><br/>
+  <div id="license">
+    {% if page.lang == "en" %}
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.
+    {% endif %}
+    {% if page.lang == "es" %}
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br />Esta obra est&#225; bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">licencia de Creative Commons</a>.
+    {% endif %}
+  </div>
+</div>

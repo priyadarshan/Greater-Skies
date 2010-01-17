@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+#+begin_html
+#+include: "loc/en.yml"
+date:   2010-01-12
+layout: main
+---
+#+end_html
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+
+These are the articles published so far in English:
+  1. [[/art/math/six-times-nine/stn-en.html][Why is six times nine the same as nine times six?]]
+  2. [[/art/math/size-paral/sp-en.html][What is the size of a parallelogram?]]
+  3. [[/art/math/size-triangle/st-en.html][What is the size of a triangle?]]
+* About Greater Skies
+  Greater Skies started as an online repository of things I
+  wanted to explain to my children. There's lots of interesting
+  things out there, many relationships to realize, many insights
+  to delight with. I want them to find the fascination of the
+  sudden comprehension, and I also want them to have a sense of
+  where they are: how big things are, how do they work, how do
+  they interrelate, where does this earth they live on belong.
+
+  I am not only talking to them now, at their 7 and 9 years: I
+  want to explain everything I would like to tell them about,
+  regardless of how complex it is, so that they will understand
+  it when the time comes. I try to be clear, but I do not dumb
+  things down. This is not child talk.
+
+  Many of the things I intend to talk about were first presented
+  to me in needlessly complicated or boring ways. I am making an
+  effort to find the clearest explanations, those that make
+  possible the flash of insight, but I am bound to fail, as I am
+  my only yardstick: please do tell me if you find something
+  that's wrong, badly told, or that can be explained in a better
+  way.
+
+  There are more articles [[/es/][in Spanish]] than in English.  This is
+  because Spanish is my first language my children don't speak
+  English, but I would like to end up with everything in at
+  least the two languages. 
+
+  I would like Greater Skies to grow into a collaborative
+  project.  It is hosted at [[http://github.com/juanre/Greater-Skies][github]], and I've set it up so that it
+  should be easy to add articles and translations.  So far only
+  English and Spanish are represented, but I'd like to add other
+  languages.  If you want to contribute you can do it in two
+  ways: write things down and [[http://juanreyero.com/][send them]] to me, or fork the =git=
+  repository at github, add whatever you deem convenient, and let
+  me know. 
+
+  [[http://juanreyero.com/][Juan Reyero]], 2010-01-17

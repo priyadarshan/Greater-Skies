@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+#+begin_html
+#+include: "../loc/es.yml"
+date:   2010-01-12
+layout: main
+---
+#+end_html
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+
+#+begin_html
+  {% for post in site.categories.es %}
+  {{ post.content }}
+  <address class="post-foot">
+    <center>
+      <span class="post-date"><a href="{{ post.url }}#disqus_thread"
+                                 title="{{ post.excerpt }}">{{ post.title }}</a>. 
+        {%if post.location %} 
+        {{ post.location }},
+        {% else %}
+        Barcelona,
+        {% endif %} {{ post.date | date: "%Y-%m-%d" }}</span>
+    </center>
+  </address><br/>
+  {% endfor %}
+#+end_html

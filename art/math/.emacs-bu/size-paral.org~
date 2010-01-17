@@ -1,0 +1,178 @@
+# -*- coding: utf-8 -*-
+
+@<div id="related">
+[[file:cas/tam-paral.org][En castellano]].
+
+See also 
++ [[file:size-triangle.org][What is the size of a triangle?]].
++ [[file:six-times-nine.org][Why is six times nine the same as nine times six?]]
+@</div>
+
+* What is the size of a parallelogram?
+  Not all solutions of a problem are created equal.  There are
+  many ways to show how the size of a parallelogram can be found:
+  one solution is very simple, but not general enough; some are
+  general but complex, and some are general, simple and
+  beautiful.  
+*** The simple case
+    When looking for a clear geometrical approach to find the
+    area of a parallelogram I first thought about the simplest
+    case, one like this:
+
+#+ATTR_HTML: class="clean-center"
+    [[file:img/size-paral/paral-1.png]]
+
+    The solution is rather easy, once you think about how it
+    compares with the rectangle of base $b$ and height $h$:
+
+#+ATTR_HTML: class="clean-center"
+    [[file:img/size-paral/paral-2.png]]
+
+    You can remove the green triangle on the right and put it on
+    the left, building a rectangle of height $h$ and width $b$
+    that has exactly the same area as the original parallelogram:
+    and we know [[file:six-times-nine.org][how to compute]] the area of a rectangle, $h\times b$.
+
+#+ATTR_HTML: class="clean-center"
+    [[file:img/size-paral/paral-3.png]]
+
+    This is an interesting result: it tells you that you can
+    stretch your parallelogram as much as you want and, as long
+    as you keep $b$ and $h$ constant it will have the same area.
+
+    As much as we want?  Well, we don't actually know that.  It
+    turns out that, as you stretch, you reach a point where the
+    argument above does not hold anymore.  What would you say
+    about this parallelogram?
+
+#+ATTR_HTML: class="clean-center"
+    [[file:img/size-paral/paral-4.png]]
+
+    It has the same $h$ and $b$ as the previous one, and maybe
+    its area is the same, but we haven't showed it yet: the
+    argument above does not apply to it, as we cannot cut the
+    triangle on the right an put it on the left to build the
+    rectangle.  It just doesn't fit:
+
+#+ATTR_HTML: class="clean-center"
+    [[file:img/size-paral/paral-5.png]]
+
+    You could of course rotate it, lay it on the long side, and
+    you are in the first case.  But at this point the goal is not
+    only to know its area: it is to show that it should be
+    $h\times b$.  So we needed another argument, and an argument
+    I found.  But, as it turns out, it was clear but long, not
+    very pretty and therefore not satisfying.
+*** The very slanted parallelogram
+    Talking about it over lunch with some friends a couple of
+    better solutions appeared.  Jaime Fernández and Ján Morovič
+    quickly came up with a smart way to convert the new problem
+    to the previous one, and then Utpal Sarkar, aka Doetoe,
+    thought of a simple and very elegant solution.
+
+    I encourage you to think about it yourself before looking at
+    the solutions, and then read them in order: first the long
+    one, then the smart one, then the elegant (and best) one.
+***** The long and winding road
+      The hypothesis is that it should be possible to fit this
+      parallelogram into the $b$ times $h$ rectangle, so the area
+      of the parallelogram should be $b\times h$.  One way to go
+      about it is to stretch the rectangle so that it fills the
+      gap:
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-6.png]]
+
+      Now it's clear that the blue triangle on the right is
+      exactly the same size of the dark green triangle, so we can
+      move it to form a small rectangle:
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-7.png]]
+
+      We have still the light green rectangle to cover, and the
+      blue area to be fit.  If the hypothesis was right, and the
+      area of the original parallelogram was the same as the area
+      of the $b\times h$ rectangle, the blue area should fit
+      exactly in the light green rectangle. One way to see if
+      this is true is to consider these two triangles:
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-8.png]]
+
+      They are identical.  Each of them contains one of the areas
+      we want to show that are equal, plus an identical medium
+      triangle (dark green), and an identical small triangle
+      (gray):
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-9.png]]
+
+      So the light green and the blue areas must be equal, and we
+      have been able to fit exactly all the blue into the green.
+***** Jaime and Ján's solution
+      It is smarter and much simpler.  Take again the original
+      parallelogram
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-jaime-1.png]]
+
+      and cut it like this
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-jaime-2.png]]
+
+      We can move the green triangle to the left, like this
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-jaime-3.png]]
+
+      We have just constructed one parallelogram that has the
+      exact same area as the original one, but is less slanted.
+      In fact, it is [[*The%20simple%20case][a simple parallelogram]] for which we already
+      know how to calculate the area.  
+
+      If the original slant had been bigger we would have
+      required more than one such transformation to reach the
+      simple case; but we'll always reach it, so we can always
+      reduce the problem to another that we know how to solve.
+      And the solution for this simplest case is $b\times h$, so
+      we know that the slanted parallelogram is also $b\times h$.
+***** Doetoe's solution
+      Doetoe was able to come up with an even simpler and more
+      elegant solution by looking, literally, out of the box.
+      Take the original slanted parallelogram 
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-doetoe-1.png]]
+
+      and draw a box around it:
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-doetoe-2.png]]
+
+      Now just slide the lower right triangle until it finds its
+      match with the other one:
+#+ATTR_HTML: class="clean-center"
+      [[file:img/size-paral/paral-doetoe-3.png]]
+
+      There you have it, so general and beautiful and simple.
+
+*** Comments
+    #+begin_html
+      <script type="text/javascript">
+        var disqus_developer = 0;
+      </script>
+      <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/juanreyero/embed.js"></script><noscript><a href="http://disqus.com/forums/juanreyero/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    #+end_html
+* COMMENT Options
+#+FILETAGS: :cjr:
+#+TITLE:     What is the size of a parallelogram?
+#+AUTHOR:    Juan Reyero
+#+DATE:      2008-04-15
+#+LANGUAGE:  en
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
+* Open                                                             :noexport:
+*** DONE Translate [[file:article/math/size-paral.org][size of a parallelogram]]
+    CLOSED: [2009-11-17 Tue 22:50]
+    :PROPERTIES:
+    :on:       <2009-11-14 Sat 15:10>
+    :ID:       5DFFC363-2F04-4644-B50A-21F535A6EC68
+    :END:
+*** DONE Publish [[file:article/math/size-paral.org][size of a parallelogram]]
+    CLOSED: [2009-11-17 Tue 22:51]
+    :PROPERTIES:
+    :on:       <2009-11-14 Sat 15:10>
+    :ID:       9CFA0895-8BC9-4690-A2ED-5DE6B235F046
+    :END:
