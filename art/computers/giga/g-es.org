@@ -8,7 +8,7 @@ layout: page
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc toc:nil
 
 @<div id="related">
-También [[file:../six-times-nine/stn-es.org][¿Por qué es seis veces nueve igual a nueve veces seis?]]
+También [[file:../../math/six-times-nine/stn-es.org][¿Por qué es seis veces nueve igual a nueve veces seis?]]
 @</div>
 
 * <<Los gigas de los discos>>
