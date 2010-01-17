@@ -4,29 +4,12 @@
  <title>Greater Skies</title>
  <link href="http://greaterskies.com/en/atom.xml" rel="self"/>
  <link href="http://greaterskies.com/"/>
- <updated>2010-01-17T14:54:15+01:00</updated>
+ <updated>2010-01-17T22:35:44+01:00</updated>
  <author>
    <name>Juan Reyero</name>
    <email>juan@juanreyero.com</email>
  </author>
  
- 
- <entry>
-   <title>The new Greater Skies</title>
-   <link href="http://greaterskies.com/2009/01/09/The-new-Greater-Skies"/>
-   <updated>2009-01-09T00:00:00+01:00</updated>
-   <id>id:/2009/01/09/The-new-Greater-Skies</id>
-   <content type="html">
-&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/01/09/The-new-Greater-Skies&quot;&gt;The new Greater Skies &lt;/a&gt;&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-
-&lt;p&gt;Ready to be translated, and easy to publish with org-mode and
-jekyll. 
-&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-</content>
- </entry>
  
  <entry>
    <title>The size of a triangle</title>

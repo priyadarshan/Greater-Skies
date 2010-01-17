@@ -23,6 +23,7 @@
                :base-extension "jpg\\|gif\\|png"
                :publishing-directory ,org-publish-gsk
                :publishing-function org-publish-attachment))
+
 (add-to-list 'org-publish-project-alist
              '("gsk" :components ("gsk-org"
                                   "gsk-img")))

@@ -3,7 +3,7 @@
   <title>Greater Skies</title>
   <link href="http://greaterskies.com/es/atom.xml" rel="self"/>
   <link href="http://greaterskies.com/es/"/>
-  <updated>2010-01-17T14:54:16+01:00</updated>
+  <updated>2010-01-17T22:35:45+01:00</updated>
   <author>
     <name>Juan Reyero</name>
     <email>juan@juanreyero.com</email>
@@ -46,22 +46,6 @@ quiere decir multiplicar a 2 por sí mismo 4 veces.  &lt;a href=&quot;/art/math/
   </entry>
   
   <entry>
-    <title>El nuevo Greater Skies</title>
-    <link href="http://greaterskies.com/2009/01/09/El-nuevo-Greater-Skies"/>
-    <updated>2009-01-09T00:00:00+01:00</updated>
-    <id>id:/2009/01/09/El-nuevo-Greater-Skies</id>
-    <content type="html">
-&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2009/01/09/El-nuevo-Greater-Skies&quot;&gt;El nuevo Greater Skies &lt;/a&gt;&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-
-&lt;p&gt;Listo para ser publicado, prácticamente. 
-&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  
-  <entry>
     <title>El tamaño de un triángulo</title>
     <link href="http://greaterskies.com/2008/05/15/El-taman%CC%83o-de-un-tria%CC%81ngulo"/>
     <updated>2008-05-15T00:00:00+02:00</updated>
@@ -97,6 +81,30 @@ formas de mostrar cómo se puede encontrar el tamaño de un
 paralelogramo: una solución es muy simple, pero poco general;
 otras son generales pero complejas, y al menos una es general,
 simple y bonita. &lt;a href=&quot;/art/math/size-paral/sp-es.html&quot;&gt;El artículo&lt;/a&gt;. 
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Seis veces nueve y nueve veces seis</title>
+    <link href="http://greaterskies.com/2008/04/06/Seis-veces-nueve-y-nueve-veces-seis"/>
+    <updated>2008-04-06T00:00:00+02:00</updated>
+    <id>id:/2008/04/06/Seis-veces-nueve-y-nueve-veces-seis</id>
+    <content type="html">
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;a href=&quot;/2008/04/06/Seis-veces-nueve-y-nueve-veces-seis&quot;&gt;Seis veces nueve y nueve veces seis &lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;¿Por qué es seis veces nueve igual a nueve veces seis?  Cuando
+hice esta pregunta a mi hijo mayor su respuesta fue &quot;Porque la
+multiplicación es conmutativa, claro&quot;.  Lo que equivale a decir
+&quot;Porque es lo que hay, y estaría bien que dejaras de preguntar
+obviedades&quot;.  Hace ya tiempo que sabe que esta propiedad de las
+multiplicaciones resulta muy cómoda: yo le pregunto &quot;¿Cuánto es
+mil veces tres?&quot;, y en vez de sumar tres, más tres, más tres,
+más tres mil veces dice &quot;lo mismo que tres veces mil, tres
+mil&quot;. &lt;a href=&quot;/art/math/six-times-nine/stn-es.html&quot;&gt;El artículo&lt;/a&gt;. 
 &lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 </content>
