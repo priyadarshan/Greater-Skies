@@ -1,8 +1,8 @@
 
-(setq org-publish-gsk "~/gsk/publish/")
+(setq org-publish-gsk "~/src/web/gsk/publish/")
 (add-to-list 'org-publish-project-alist
              `("gsk-org"
-               :base-directory "~/gsk/"
+               :base-directory "~/src/web/gsk/"
                :recursive t
                :base-extension "org"
                :publishing-directory ,org-publish-gsk
@@ -17,7 +17,7 @@
 
 (add-to-list 'org-publish-project-alist
              `("gsk-img"
-               :base-directory "~/gsk/"
+               :base-directory "~/src/web/gsk/"
                :recursive t
                :exclude "^publish"
                :base-extension "jpg\\|gif\\|png"
