@@ -1,264 +1,0 @@
-
-2008.org,0
-
-2009.org,0
-
-2010.org,0
-
-art/computers/giga/g-es.org,61
-* <<Los gigas de los discos>>Los gigas de los discos14,333
-
-art/math/logarithm/l-es.org,0
-
-art/math/power/p-es.org,0
-
-art/math/six-times-nine/img/Makefile,0
-
-art/math/six-times-nine/stn-en.org,0
-
-art/math/six-times-nine/stn-es.org,0
-
-art/math/size-paral/img/Makefile,369
-BASE =	paral-1.png paral-2.png paral-3.png paral-4.png paral-5.png \BASE2,1
-DOETOE = paral-doetoe-1.png paral-doetoe-2.png paral-doetoe-3.pngDOETOE5,121
-JAIME = paral-jaime-1.png paral-jaime-2.png paral-jaime-3.pngJAIME7,188
-BASEPDF = $(BASE:.png=.pdf)BASEPDF11,284
-DOETOEPDF = $(DOETOE:.png=.pdf)DOETOEPDF14,333
-JAIMEPDF = $(JAIME:.png=.pdf)JAIMEPDF17,390
-
-art/math/size-paral/sp-en.org,0
-
-art/math/size-paral/sp-es.org,0
-
-art/math/size-triangle/img/Makefile,0
-
-art/math/size-triangle/st-en.org,0
-
-art/math/size-triangle/st-es.org,0
-
-es/index.org,0
-
-gsk.el,0
-
-index.org,0
-
-Makefile,0
-
-publish/2008.html,0
-
-publish/2009.html,0
-
-publish/2010.html,0
-
-publish/_includes/author.html,0
-
-publish/_includes/footer.html,0
-
-publish/_includes/header.html,0
-
-publish/_layouts/default.html,220
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG62,2212
- function CodeHighlightOn(elem, id)CodeHighlightOn99,3797
- function CodeHighlightOff(elem, id)CodeHighlightOff109,4091
-
-publish/_layouts/main.html,0
-
-publish/_layouts/page.html,45
-<a name="comments">&nbsp;</a>comments9,121
-
-publish/_layouts/post.html,47
-<a name="comments">&nbsp;</a>comments50,1297
-
-publish/_site/2008/04/06/Los-gigas-de-los-discos/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1784
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3369
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3663
-<a name="comments">&nbsp;</a>comments198,6385
-
-publish/_site/2008/04/06/Seis-veces-nueve-y-nueve-veces-seis/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1796
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3381
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3675
-<a name="comments">&nbsp;</a>comments209,6636
-
-publish/_site/2008/04/06/Six-times-nine-and-nine-times-six/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1794
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3379
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3673
-<a name="comments">&nbsp;</a>comments209,6623
-
-publish/_site/2008/05/15/El-tamaño-de-un-paralelogramo/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1791
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3376
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3670
-<a name="comments">&nbsp;</a>comments205,6392
-
-publish/_site/2008/05/15/El-tamaño-de-un-triángulo/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1788
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3373
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3667
-<a name="comments">&nbsp;</a>comments206,6432
-
-publish/_site/2008/05/15/The-size-of-a-parallelogram/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1788
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3373
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3667
-<a name="comments">&nbsp;</a>comments205,6320
-
-publish/_site/2008/05/15/The-size-of-a-triangle/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1783
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3368
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3662
-<a name="comments">&nbsp;</a>comments206,6379
-
-publish/_site/2008.html,0
-
-publish/_site/2009/01/09/El-nuevo-Greater-Skies/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1783
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3368
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3662
-<a name="comments">&nbsp;</a>comments201,6027
-
-publish/_site/2009/01/09/The-new-Greater-Skies/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1782
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3367
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3661
-<a name="comments">&nbsp;</a>comments202,6062
-
-publish/_site/2009/12/22/Un-número-elevado-a-otro/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1786
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3371
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3665
-<a name="comments">&nbsp;</a>comments205,6355
-
-publish/_site/2009/12/23/Logaritmos/index.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1771
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3356
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3650
-<a name="comments">&nbsp;</a>comments193,5890
-
-publish/_site/2009.html,0
-
-publish/_site/2010.html,0
-
-publish/_site/archivo.html,220
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG55,1767
- function CodeHighlightOn(elem, id)CodeHighlightOn92,3352
- function CodeHighlightOff(elem, id)CodeHighlightOff102,3646
-
-publish/_site/art/computers/giga/g-es.html,408
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<h2 id="sec-1"><a name="Los==gigas==de==los==discos" class="target">Los gigas de los discos</a> </h2>Los==gigas==de==los==discos129,4268
-<a name="comments">&nbsp;</a>comments409,15513
-
-publish/_site/art/math/logarithm/l-es.html,269
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments271,10998
-
-publish/_site/art/math/power/p-es.html,269
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments405,16757
-
-publish/_site/art/math/six-times-nine/stn-en.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments199,6452
-
-publish/_site/art/math/six-times-nine/stn-es.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments197,6439
-
-publish/_site/art/math/size-paral/sp-en.html,269
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments340,12278
-
-publish/_site/art/math/size-paral/sp-es.html,269
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments354,12450
-
-publish/_site/art/math/size-triangle/st-en.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments254,8625
-
-publish/_site/art/math/size-triangle/st-es.html,268
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-<a name="comments">&nbsp;</a>comments261,9142
-
-publish/_site/es/archivo.html,220
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-
-publish/_site/es/index.html,220
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-
-publish/_site/index.html,220
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.correctPNG54,1761
- function CodeHighlightOn(elem, id)CodeHighlightOn91,3346
- function CodeHighlightOff(elem, id)CodeHighlightOff101,3640
-
-publish/art/computers/giga/g-es.html,137
-<h2 id="sec-1"><a name="Los==gigas==de==los==discos" class="target">Los gigas de los discos</a> </h2>Los==gigas==de==los==discos19,364
-
-publish/art/math/logarithm/l-es.html,0
-
-publish/art/math/power/p-es.html,0
-
-publish/art/math/six-times-nine/stn-en.html,0
-
-publish/art/math/six-times-nine/stn-es.html,0
-
-publish/art/math/size-paral/sp-en.html,0
-
-publish/art/math/size-paral/sp-es.html,0
-
-publish/art/math/size-triangle/st-en.html,0
-
-publish/art/math/size-triangle/st-es.html,0
-
-publish/en/_posts/2008-04-06-Six-times-nine-and-nine-times-six.html,0
-
-publish/en/_posts/2008-05-15-The-size-of-a-parallelogram.html,0
-
-publish/en/_posts/2008-05-15-The-size-of-a-triangle.html,0
-
-publish/en/_posts/2009-01-09-The-new-Greater-Skies.html,0
-
-publish/es/_posts/2008-04-06-Los-gigas-de-los-discos.html,0
-
-publish/es/_posts/2008-04-06-Seis-veces-nueve-y-nueve-veces-seis.html,0
-
-publish/es/_posts/2008-05-15-El-tamaño-de-un-paralelogramo.html,0
-
-publish/es/_posts/2008-05-15-El-tamaño-de-un-triángulo.html,0
-
-publish/es/_posts/2009-01-09-El-nuevo-Greater-Skies.html,0
-
-publish/es/_posts/2009-12-22-Un-número-elevado-a-otro.html,0
-
-publish/es/_posts/2009-12-23-Logaritmos.html,0
-
-publish/es/archivo.html,0
-
-publish/es/index.html,0
-
-publish/index.html,0
