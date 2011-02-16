@@ -7,6 +7,7 @@
                :base-extension "org"
                :publishing-directory ,org-publish-gsk
                :publishing-function org-publish-org-to-html
+               :jekyll-sanitize-permalinks t
                :section-numbers nil
                :headline-levels 4
                :table-of-contents nil
